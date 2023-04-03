@@ -1,13 +1,11 @@
 import Head from 'next/head';
-import Image from 'next/image';
-import { Inter } from 'next/font/google';
-import styles from '@/styles/Home.module.css';
 import Layout from '@/components/Layout';
-import { Hero } from '@/components';
+import { Hero, About, Project, Contacts, Certificate } from '@/components';
 
-const inter = Inter({ subsets: ['latin'] });
+import useData from '@/hooks/useData';
 
 export default function Home() {
+  const { data, isError, isLoading } = useData();
   return (
     <>
       <Head>
@@ -25,8 +23,18 @@ export default function Home() {
           href='/favicon.ico'
         />
       </Head>
-      <Layout>
-        <Hero />
+      <Layout
+        dataHeader={data?.hero}
+        dataFooter={data?.contacts}>
+        <Hero data={data?.hero} />
+        <About />
+        <Project
+          data={data?.categories}
+          isLoading={isLoading}
+          isError={isError}
+        />
+        <Certificate data={data?.certificate} />
+        <Contacts />
       </Layout>
     </>
   );

@@ -1,12 +1,12 @@
 import Footer from '../Footer';
 import Header from '../Header';
 
-export default function Layout({ children }) {
+export default function Layout({ children, dataHeader, dataFooter }) {
   return (
     <>
-      <Header />
+      <Header data={dataHeader} />
       <main>{children}</main>
-      <Footer />
+      <Footer data={dataFooter} />
     </>
   );
 }
