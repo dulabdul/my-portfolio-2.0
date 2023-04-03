@@ -1,3 +1,7 @@
 .name {
   @apply text-red-900;
 }
+.toggle {
+  color: white !important;
+  @apply transition-all hover:bg-gradient-to-r from-[#8B5CF6] to-[#EC4899] focus:ring-0;
+}

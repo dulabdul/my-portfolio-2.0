@@ -6,19 +6,16 @@ export default function CustomButton(props) {
   if (props.isWidthAuto) className.push('w-auto');
   if (props.isBlock) className.push('block');
   if (props.hasShadow) className.push('shadow-sm');
-  if (props.isTransparent)
+  if (props.isTransparentOrange)
+    className.push('border border-[#F2672E] hover:bg-[#F2672E]');
+  if (props.isTransparentPurple)
     className.push(
-      'border-primary border text-primary hover:bg-primary hover:text-white'
+      'border border-indigo-500 ring-1 transition-all hover:bg-indigo-500'
     );
-  if (props.isPrimary)
-    className.push(
-      'bg-primary text-white hover:bg-transparent hover:border hover:border-primary hover:text-primary'
-    );
-  if (props.isSecondary)
-    className.push(
-      'bg-secondary text-white hover:bg-transparent hover:border hover:border-primary hover:text-primary'
-    );
-  if (props.isRounded) className.push('rounded-lg');
+  if (props.isGradientOrange) className.push('bg-gradient-orange');
+  if (props.isGradientPurple) className.push('bg-gradient-purple');
+  if (props.isSecondary) className.push('bg-gradient-purple');
+  if (props.isRounded) className.push('rounded-md');
   if (props.isRoundedFull) className.push('rounded-full');
   if (props.isFlex) className.push('flex');
   if (props.isFull) className.push('w-full');
@@ -70,6 +67,7 @@ export default function CustomButton(props) {
       <button
         className={className.join(' ')}
         style={props.style}
+        value={props.value}
         disabled
         onClick={onClick}>
         {props.children}
@@ -92,6 +90,7 @@ CustomButton.propTypes = {
   onClick: propTypes.func,
   target: propTypes.string,
   href: propTypes.string,
+  value: propTypes.string,
   className: propTypes.string,
   isLoading: propTypes.bool,
   isDisabled: propTypes.bool,
@@ -100,9 +99,10 @@ CustomButton.propTypes = {
   isBlock: propTypes.bool,
   isFlex: propTypes.bool,
   isFull: propTypes.bool,
-  isTransparent: propTypes.bool,
-  isPrimary: propTypes.bool,
-  isSecondary: propTypes.bool,
+  isTransparentOrange: propTypes.bool,
+  isTransparentPurple: propTypes.bool,
+  isGradientOrange: propTypes.bool,
+  isGradientPurple: propTypes.bool,
   isRounded: propTypes.bool,
   isRoundedFull: propTypes.bool,
   isExternal: propTypes.bool,

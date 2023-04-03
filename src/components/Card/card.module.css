@@ -1,0 +1,6 @@
+.text-project {
+  @apply my-5 text-3xl md:text-4xl text-white font-semibold tracking-tight;
+}
+.text-certificate {
+  @apply md:my-5 text-lg md:text-xl text-white font-semibold tracking-tight;
+}
