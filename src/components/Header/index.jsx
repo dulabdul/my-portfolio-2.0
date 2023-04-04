@@ -42,7 +42,7 @@ export default function Header({
   ];
   const [scrolledNav, setScrolledNav] = useState(null);
 
-  const handleClickCv = () => {
+  const handleClick = () => {
     event('view_cv', {
       category: 'CV',
     });
@@ -88,7 +88,7 @@ export default function Header({
             <CustomButton
               href={data?.CV}
               type='link'
-              onClick={handleClickCv}
+              onClick={handleClick}
               isExternal
               target='_blank'
               isGradientOrange
