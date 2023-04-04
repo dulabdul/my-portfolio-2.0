@@ -1,31 +1,25 @@
 import { useState } from 'react';
-import { Card, CertCard } from '..';
-import 'react-image-lightbox/style.css';
-import Lightbox from 'react-image-lightbox';
+import { Card } from '..';
+import CustomButton from '../Button';
+import { CgMoreO } from 'react-icons/cg';
 
-export default function Certificate({ data }) {
-  const [indexOfImages, setIndexOfImages] = useState(0);
-  const [showModal, setShowModal] = useState(false);
-  const openModalAndSetIndex = (index) => {
-    setShowModal(true);
-    setIndexOfImages(index);
-    //   const ref = hideNavRef.current;
-    //   ref.style.display = 'none';
-    return;
-  };
-  const modalOpenHandler = () => {
-    setShowModal(true);
-    //   const ref = hideNavRef.current;
-    //   ref.style.display = 'none';
+export default function Certificate({ data, certRef }) {
+  const [visible, setVisible] = useState(6);
+
+  const showMore = () => {
+    setVisible((visible) => visible + 3);
   };
   return (
-    <section className='w-full h-full overflow-hidden px-6'>
+    <section
+      ref={certRef}
+      className='w-full h-full overflow-hidden px-6 py-12'>
       <h1 className='text-heading'>Certificate</h1>
       <div className='w-full mx-auto container py-8'>
         <div className='w-full h-full grid grid-cols-1 md:grid-cols-3 items-center justify-center gap-4 py-12'>
-          {data?.map((cert, index) => (
+          {data?.slice(0, visible).map((cert, index) => (
             <div key={index}>
               <Card
+                imgLightBox={() => openModalAndSetIndex()}
                 imageUrl={cert.imageUrl}
                 title={cert.title}
                 credentialUrl={cert.credentialUrl}
@@ -34,27 +28,21 @@ export default function Certificate({ data }) {
             </div>
           ))}
         </div>
-        {showModal && (
-          <Lightbox
-            mainSrc={data[indexOfImages].imageUrl}
-            onImageLoad={() => {
-              window.dispatchEvent(new Event('resize'));
-            }}
-            imageTitle={`${indexOfImages + 1} / ${data.length}`}
-            imageCaption={data[indexOfImages].title}
-            nextSrc={data[(indexOfImages + 1) % data.length].imageUrl}
-            prevSrc={
-              data[(indexOfImages + data.length - 1) % data.length].imageUrl
-            }
-            onCloseRequest={() => setShowModal(false)}
-            onMovePrevRequest={() =>
-              setIndexOfImages((indexOfImages + data.length - 1) % data.length)
-            }
-            onMoveNextRequest={() =>
-              setIndexOfImages((indexOfImages + data.length + 1) % data.length)
-            }
-          />
-        )}
+        <div className='flex justify-center py-4 md:py-8'>
+          {visible < data?.length ? (
+            <CustomButton
+              type='button'
+              onClick={showMore}
+              isFlex
+              isRounded
+              isTransparentPurple
+              className='items-center text-2xl justify-center text-dark dark:text-light hover:text-light px-8 py-2'>
+              <CgMoreO className='mr-2' /> Load More
+            </CustomButton>
+          ) : (
+            ''
+          )}
+        </div>
       </div>
     </section>
   );

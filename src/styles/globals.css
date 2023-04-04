@@ -4,15 +4,21 @@
   html {
     @apply font-Roboto;
   }
+  .bg-light {
+    @apply bg-white;
+  }
+  .bg-dark {
+    @apply bg-gradient-to-br from-[#121212] from-25%  to-[#1E3A8A];
+  }
   body {
-    @apply bg-gradient-to-br from-[#121212] from-25%  to-[#1E3A8A] object-cover object-center bg-no-repeat;
+    @apply transition-all duration-200 object-cover object-center bg-no-repeat bg-light dark:bg-dark;
   }
 }
 @tailwind components;
 @tailwind utilities;
 @layer utilities {
   .text-hover {
-    @apply text-white font-light text-base hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-[#F59E0B] to-[#EF4444] hover:border-b transition-all border-[#EF4444];
+    @apply dark:text-light text-dark font-normal dark:font-light text-base hover:text-transparent dark:hover:text-transparent hover:bg-clip-text hover:bg-gradient-orange hover:border-b transition-all border-[#EF4444];
   }
   .bg-gradient-orange {
     @apply bg-gradient-to-r from-[#F59E0B] to-[#EF4444];
@@ -24,13 +30,10 @@
     @apply cursor-pointer px-7 py-1 transition-all;
   }
   .text-heading {
-    @apply text-white font-semibold text-4xl md:text-5xl text-center after:mx-auto after:mb-0 after:block after:mt-9 after:rounded-full after:h-1 after:w-24 after:-translate-y-1 after:bg-gradient-to-r from-[#8B5CF6] to-[#EC4899] after:content-[""];
+    @apply dark:text-light text-dark font-semibold text-4xl md:text-5xl text-center after:mx-auto after:mb-0 after:block after:mt-9 after:rounded-full after:h-1 after:w-24 after:-translate-y-1 after:bg-gradient-to-r from-[#8B5CF6] to-[#EC4899] after:content-[""];
   }
   .link-description > p > a {
     @apply underline hover:text-blue-400;
-  }
-  .ReactModal__Overlay--before-close {
-    pointer-events: none;
   }
 }
 header > .container > nav {

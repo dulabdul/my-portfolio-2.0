@@ -10,6 +10,7 @@ module.exports = {
     './src/**/*.{js,ts,jsx,tsx}',
     './public/**/*.html',
   ],
+  important: true,
   darkMode: 'class',
   theme: {
     extend: {
@@ -18,6 +19,12 @@ module.exports = {
       },
       animation: {
         float: 'float 3s infinite',
+      },
+      colors: {
+        light: '#F9FAFB',
+        lightSecondary: '#E5E7EB',
+        dark: '#1F2937',
+        darkSecondary: '#374151',
       },
       keyframes: {
         float: {

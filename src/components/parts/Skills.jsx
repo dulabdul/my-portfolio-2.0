@@ -11,8 +11,8 @@ export default function Skills() {
         cascade
         triggerOnce={true}
         delay={200}>
-        <div className='bg-[#0b0b0b65]'>
-          <div className='container mx-auto flex items-center justify-center gap-x-2 flex-wrap py-6'>
+        <div className='bg-slate-300 dark:bg-[#0b0b0b65]'>
+          <div className='container mx-auto flex items-center justify-center gap-3 flex-wrap py-6'>
             {data?.skills.map((item, index) => (
               <div key={index}>
                 <Image

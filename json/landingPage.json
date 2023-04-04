@@ -13,7 +13,7 @@
         "url": "https://github.com/dulabdul"
       },
       {
-        "name": "Linkedin",
+        "name": "Instragam",
         "url": "https://www.instagram.com/dul.abdul21"
       },
       {
@@ -85,6 +85,282 @@
     }
   ],
   "categories": [
+    {
+      "name": "allWorks",
+      "projects": [
+        {
+          "id": 1,
+          "title": "Car Mania",
+          "description": "<p>This website to rent car. Design slicing from <a target='_blank' href='https://www.figma.com/file/T4TpkUspVRN9SNCZWtKEy2/CarMania---Landing-Page-(Community)?node-id=0%3A1&t=PLHx8QZu2c6iU1tm-1'>Figma</a></p>",
+          "demo": "https://rent-car-theta.vercel.app/",
+          "github": "https://github.com/dulabdul/rent-car",
+          "imageUrl": "/images/project/rentCar.png",
+          "stacks": [
+            {
+              "name": "react"
+            },
+            {
+              "name": "html"
+            },
+            {
+              "name": "css"
+            },
+            {
+              "name": "Tailwind CSS"
+            },
+            {
+              "name": "Node JS"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "LuxSpace",
+          "description": "<p>An website to display product, like website e-commerce. You can add product to cart & checkout product</p>",
+          "demo": "https://luxspace-omega.vercel.app/",
+          "github": "https://github.com/dulabdul/bwa-handoff",
+          "imageUrl": "/images/project/luxSpace.png",
+          "stacks": [
+            {
+              "name": "react"
+            },
+            {
+              "name": "html"
+            },
+            {
+              "name": "SASS"
+            },
+            {
+              "name": "Tailwind CSS"
+            },
+            {
+              "name": "Node JS"
+            },
+            {
+              "name": "React Context"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Space Consultant",
+          "description": "<p>Landing pages consultant website. The design slicing from <a target='_blank' href='https://www.figma.com/file/TOnPf1bMMjxO0NdTqF3LEx/Landing-page-UI-Kit-%2B-Components-(Community)?t=PLHx8QZu2c6iU1tm-1'>Figma</a></p>",
+          "demo": "https://consultan-ads.vercel.app/",
+          "github": "https://github.com/dulabdul/consultan_ads.git",
+          "imageUrl": "/images/project/consultant.png",
+          "stacks": [
+            {
+              "name": "react"
+            },
+            {
+              "name": "html"
+            },
+            {
+              "name": "CSS"
+            },
+            {
+              "name": "Tailwind CSS"
+            },
+            {
+              "name": "Node JS"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Movie App",
+          "description": "<p>This website to show list movie, you can see displaying now, upcoming movies, popular film, and film with highest rating. You can save the movie with like button.</p>",
+          "demo": "https://nonton-kuy.web.app/",
+          "github": "https://github.com/dulabdul/movie-katalog",
+          "imageUrl": "/images/project/movieApp.png",
+          "stacks": [
+            {
+              "name": "javascript"
+            },
+            {
+              "name": "html"
+            },
+            {
+              "name": "CSS"
+            },
+            {
+              "name": "Webpack"
+            },
+            {
+              "name": "Node JS"
+            },
+            {
+              "name": "PWA"
+            },
+            {
+              "name": "The MovieDb API"
+            },
+            {
+              "name": "Jasmine"
+            },
+            {
+              "name": "Karma"
+            },
+            {
+              "name": "Codecept"
+            },
+            {
+              "name": "Puppeter"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Notes App",
+          "description": "<p>You can create, delete,archived the notes. Have a feature dark or light theme, langauge switcher, and search your notes.</p>",
+          "demo": "https://notes-app-react-liart.vercel.app/",
+          "github": "https://github.com/dulabdul/consultan_ads.git",
+          "imageUrl": "/images/project/notesApp.png",
+          "stacks": [
+            {
+              "name": "react"
+            },
+            {
+              "name": "html"
+            },
+            {
+              "name": "SASS"
+            },
+            {
+              "name": "React Context"
+            },
+            {
+              "name": "Node JS"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "TripVacation",
+          "description": "<p>A travel information, you can order travel with this website.</p>",
+          "demo": "https://tripvaction.vercel.app/",
+          "github": "https://github.com/dulabdul/MERN-TripVacation",
+          "imageUrl": "/images/project/tripvacation.png",
+          "stacks": [
+            {
+              "name": "react"
+            },
+            {
+              "name": "html"
+            },
+            {
+              "name": "SASS"
+            },
+            {
+              "name": "Bootstrap"
+            },
+            {
+              "name": "Node JS"
+            },
+            {
+              "name": "React Context"
+            },
+            {
+              "name": "React Redux"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Publik Nasional",
+          "description": "<p>A news website, creating with wordpress</p>",
+          "demo": "https://publiknasional.com/",
+          "github": null,
+          "imageUrl": "/images/project/publikNasional.png",
+          "stacks": [
+            {
+              "name": "wordpress CMS"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "title": "Refine Server Dashboard",
+          "description": "<p>A example backend dashboard build with <a target='_blank' href='https://refine.dev/'>Refine</a> technology. Log in use auth google</p>",
+          "demo": "https://rentcar-dashboard.netlify.app/",
+          "github": "https://github.com/dulabdul/refine_dashboard_car",
+          "imageUrl": "/images/project/refineDashboard.png",
+          "stacks": [
+            {
+              "name": "react"
+            },
+            {
+              "name": "html"
+            },
+            {
+              "name": "material UI"
+            },
+            {
+              "name": "Typescripts"
+            },
+            {
+              "name": "refine"
+            },
+            {
+              "name": "Emotion"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "title": "TripVacation Dashboard",
+          "description": "<p>Backend dashboard from website travel <a target='_blank' href='https://tripvaction.vercel.app/'>TripVacation</a></p>",
+          "demo": null,
+          "github": "https://github.com/dulabdul/server-tripvacation",
+          "imageUrl": "/images/project/server-tripvacation.png",
+          "stacks": [
+            {
+              "name": "express JS"
+            },
+            {
+              "name": "html"
+            },
+            {
+              "name": "ejs"
+            },
+            {
+              "name": "bootstrap"
+            },
+            {
+              "name": "javascript"
+            },
+            {
+              "name": "bcryptjs"
+            },
+            {
+              "name": "mongoose"
+            },
+            {
+              "name": "mongoDB"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "title": "Sistem Informasi Perpustakaan",
+          "description": "<p>System management for library, created with Php native</p>",
+          "demo": null,
+          "github": "https://github.com/dulabdul/Sistem-informasi-Perpustakaan",
+          "imageUrl": "/images/project/sipus.png",
+          "stacks": [
+            {
+              "name": "php"
+            },
+            {
+              "name": "html"
+            },
+            {
+              "name": "css"
+            }
+          ]
+        }
+      ]
+    },
     {
       "name": "front end",
       "projects": [

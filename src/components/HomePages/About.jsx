@@ -1,13 +1,14 @@
-import Image from 'next/image';
 import React from 'react';
 import style from './landing.module.css';
 import { Skills } from '..';
 import { Fade } from 'react-awesome-reveal';
 
-export default function About() {
+export default function About({ discoverRef }) {
   return (
     <>
-      <section className='w-full h-full px-6 py-16 overflow-hidden '>
+      <section
+        ref={discoverRef}
+        className='w-full h-full px-6 py-16 overflow-hidden '>
         <Fade
           direction='up'
           cascade
@@ -29,7 +30,7 @@ export default function About() {
             cascade
             triggerOnce={true}>
             <div className='w-full h-full'>
-              <p className='text-slate-400 md:leading-relaxed leading-6'>
+              <p className='dark:text-slate-400 text-darkSecondary md:leading-relaxed leading-6'>
                 Hi there! My name is Abdul Rahman, currently, i&apos;m full time
                 working as IT Application Support at a software company in
                 Jakarta, I have a side hustle as a freelancer web developer with
@@ -38,14 +39,14 @@ export default function About() {
                 CSS, MongoDB, and Node Js.
               </p>
               <br />
-              <p className='text-slate-400  md:leading-relaxed leading-6'>
+              <p className='dark:text-slate-400 text-darkSecondary  md:leading-relaxed leading-6'>
                 Possess strong skills in designing, developing, and slicing
                 design to code. Data-driven and creative in finding solutions to
                 complex problems. Love to develop innovative applications that
                 enable creativity.
               </p>
               <br />
-              <p className='text-slate-400  md:leading-relaxed leading-6'>
+              <p className='dark:text-slate-400 text-darkSecondary  md:leading-relaxed leading-6'>
                 I love the entire process of developing creative websites. It
                 allows me to create something both beautiful and functional. I
                 want to continue improving the skills that can enable me to be

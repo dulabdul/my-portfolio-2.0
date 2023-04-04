@@ -5,7 +5,15 @@ import TypeWriter from '../Typewritter';
 import { AiFillEye } from 'react-icons/ai';
 import { MdOutlineWavingHand } from 'react-icons/md';
 import { Fade, Zoom } from 'react-awesome-reveal';
-export default function Hero({ data }) {
+import { useRef } from 'react';
+
+export default function Hero({ discoverRef, reachMeRef }) {
+  const handlerScroll = (ref) => {
+    window.scrollTo({
+      top: ref.offsetTop - 50,
+      behavior: 'smooth',
+    });
+  };
   return (
     <section className='w-full h-[100vh] md:h-full overflow-hidden'>
       <div className='h-full md:h-[100vh] flex flex-col justify-center'>
@@ -14,11 +22,6 @@ export default function Hero({ data }) {
           alt=''
           className='absolute inset-0'
         />
-        {/* <img
-          src='/images/b-right.png'
-          alt=''
-          className='hidden md:block absolute right-0 bottom-0'
-        /> */}
         <img
           src='/images/Pill-Blue-Glossy.svg'
           className='w-[120px] h-[120px] -bottom-0 -left-6 md:w-[140px] md:h-[225px] absolute z-10 md:bottom-0 md:-left-4 animate-float'
@@ -50,11 +53,11 @@ export default function Hero({ data }) {
               damping={0.2}
               triggerOnce={true}
               delay={200}>
-              <h1 className='text-white text-5xl  md:text-4xl font-semibold'>
+              <h1 className='text-dark dark:text-light text-5xl  md:text-4xl font-semibold'>
                 Hi There👋,
               </h1>
 
-              <h1 className='text-white text-4xl font-semibold '>
+              <h1 className='text-dark dark:text-light text-4xl font-semibold '>
                 I&apos;m{' '}
                 <TypeWriter
                   delay={150}
@@ -64,7 +67,7 @@ export default function Hero({ data }) {
                 />
               </h1>
 
-              <h2 className='text-white text-2xl md:text-4xl font-semibold'>
+              <h2 className='text-dark dark:text-light text-2xl md:text-4xl font-semibold'>
                 I am{' '}
                 <TypeWriter
                   delay={750}
@@ -72,7 +75,7 @@ export default function Hero({ data }) {
                   name={['Front-End Developer.', 'UI Designer.']}
                 />
               </h2>
-              <p className='text-white normal-case'>
+              <p className='text-darkSecondary dark:text-lightSecondary normal-case'>
                 Turning your idea into a cool produk with a good{' '}
                 <span className='bg-gradient-orange text-transparent bg-clip-text'>
                   Web Developer.
@@ -86,15 +89,17 @@ export default function Hero({ data }) {
                   isTransparentOrange
                   isRounded
                   type='button'
-                  className='px-6 py-4 md:py-3 items-center text-white text-xl animate-float'>
+                  onClick={() => handlerScroll(discoverRef.current)}
+                  className='px-6 py-4 md:py-3 items-center text-dark dark:text-light hover:text-light text-xl animate-float'>
                   <AiFillEye className='mr-1' /> Discover More
                 </CustomButton>
                 <CustomButton
                   isFlex
                   isGradientPurple
                   isRounded
+                  onClick={() => handlerScroll(reachMeRef.current)}
                   type='button'
-                  className='px-6 py-4 md:py-3 items-center text-white text-xl hover:bg-gradient-orange animate-float'>
+                  className='px-6 py-4 md:py-3 items-center text-light text-xl hover:bg-gradient-orange animate-float'>
                   <MdOutlineWavingHand className='mr-1' /> Reach me
                 </CustomButton>
               </div>

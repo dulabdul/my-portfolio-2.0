@@ -34,13 +34,13 @@ export default function Card({
         direction='up'
         triggerOnce={true}
         cascade>
-        <div className='relative overflow-hidden rounded-lg md:rounded-lg lg:rounded-lg shadow-lg shadow-indigo-400/30 cursor-pointer group'>
+        <div className='relative overflow-hidden rounded-lg md:rounded-lg lg:rounded-lg shadow-lg shadow-neutral-400/60 dark:shadow-indigo-400/30  cursor-pointer group'>
           <Image
             src={imageUrl}
             alt={title}
             width={951}
             height={450}
-            className='object-cover w-full h-[450px] group-hover:scale-110 transition-all duration-500'
+            className='object-cover w-full group-hover:scale-110 transition-all duration-500'
             style={{
               width: 'auto',
               height: platform ? 'auto' : widthScreen < 576 ? '450px' : 'auto',

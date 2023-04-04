@@ -5,6 +5,7 @@ import {
   AiFillGithub,
   AiOutlineInstagram,
   AiOutlineMail,
+  AiFillHeart,
 } from 'react-icons/ai';
 
 export default function Footer({ data }) {
@@ -14,16 +15,24 @@ export default function Footer({ data }) {
   function renderSwitch(param) {
     switch (param) {
       case 'Instragam':
-        return <AiOutlineInstagram className='text-white text-3xl' />;
+        return (
+          <AiOutlineInstagram className='dark:text-light text-dark group-hover:text-light text-3xl' />
+        );
         break;
       case 'Linkedin':
-        return <AiFillLinkedin className='text-white text-3xl' />;
+        return (
+          <AiFillLinkedin className='dark:text-light text-dark group-hover:text-light text-3xl' />
+        );
         break;
       case 'Github':
-        return <AiFillGithub className='text-white text-3xl' />;
+        return (
+          <AiFillGithub className='dark:text-light text-dark group-hover:text-light text-3xl' />
+        );
         break;
       case 'Email':
-        return <AiOutlineMail className='text-white text-3xl' />;
+        return (
+          <AiOutlineMail className='dark:text-light text-dark group-hover:text-light text-3xl' />
+        );
         break;
       default:
         break;
@@ -41,10 +50,14 @@ export default function Footer({ data }) {
             height={60}
           />
         </div>
-        <p className='font-light text-base text-slate-400'>
-          Designed & Created by Abdul
+        <p className='font-light flex text-center items-center justify-center text-base text-dark dark:text-slate-400'>
+          Designed & Created by
+          <span className='flex items-center justify-center '>
+            <AiFillHeart className='ml-1 text-[#EC4899]' />
+            Abdul
+          </span>
         </p>
-        <p className='font-light text-base text-slate-400'>
+        <p className='font-light text-base text-dark dark:text-slate-400'>
           Build With Next JS & Tailwind CSS
         </p>
         <div className='flex items-center justify-center gap-x-4 pt-16 pb-12  md:py-14'>
@@ -57,12 +70,12 @@ export default function Footer({ data }) {
               isExternal
               target='_blank'
               href={item.url}
-              className='w-[44px] h-[44px] items-center justify-center border border-indigo-500 ring-1 transition-all hover:bg-indigo-500'>
+              className='w-[44px] h-[44px] items-center group justify-center border border-indigo-500 ring-1 transition-all hover:bg-indigo-500'>
               {renderSwitch(item.name)}
             </CustomButton>
           ))}
         </div>
-        <p className='font-light text-sm text-slate-400 text-center'>
+        <p className='font-light text-sm text-dark dark:text-slate-400 text-center'>
           Copyright © {year} Abdul Rahman. <br className='block md:hidden' />{' '}
           All Rights Reversed
         </p>
