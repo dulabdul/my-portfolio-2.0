@@ -1,13 +1,14 @@
-import Image from 'next/image';
 import React from 'react';
 import style from './landing.module.css';
 import { Skills } from '..';
 import { Fade } from 'react-awesome-reveal';
 
-export default function About() {
+export default function About({ discoverRef }) {
   return (
     <>
-      <section className='w-full h-full px-6 py-16 overflow-hidden '>
+      <section
+        ref={discoverRef}
+        className='w-full h-full px-6 py-16 overflow-hidden '>
         <Fade
           direction='up'
           cascade

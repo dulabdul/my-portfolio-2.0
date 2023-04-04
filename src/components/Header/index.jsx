@@ -4,27 +4,34 @@ import { useState, useEffect } from 'react';
 import CustomButton from '../Button';
 import { FiDownload } from 'react-icons/fi';
 import styles from './Header.module.css';
-export default function Header({ data }) {
+import Link from 'next/link';
+export default function Header({
+  data,
+  reachMeRef,
+  discoverRef,
+  certRef,
+  projectRef,
+}) {
   const menuList = [
     {
       name: 'Home',
-      href: '/',
+      destination: {},
     },
     {
       name: 'About',
-      href: '/',
+      destination: discoverRef?.current,
     },
     {
       name: 'Project',
-      href: '/',
+      destination: projectRef?.current,
     },
     {
       name: 'Certificate',
-      href: '/',
+      destination: certRef?.current,
     },
     {
       name: 'Contact',
-      href: '/',
+      destination: reachMeRef?.current,
     },
   ];
   const [scrolledNav, setScrolledNav] = useState(null);
@@ -43,6 +50,7 @@ export default function Header({ data }) {
       window.removeEventListener('scroll', listenScrollEvent);
     };
   }, []);
+
   return (
     <header className={`w-full z-50 fixed ${scrolledNav}`}>
       <div className='container mx-auto'>
@@ -79,11 +87,12 @@ export default function Header({ data }) {
               <li
                 key={index}
                 className='mt-2'>
-                <a
-                  href={item.href}
+                <CustomButton
+                  onClick={() => handlerScroll(item.destination)}
+                  type='button'
                   className='text-hover'>
                   {item.name}
-                </a>
+                </CustomButton>
               </li>
             ))}
           </Navbar.Collapse>

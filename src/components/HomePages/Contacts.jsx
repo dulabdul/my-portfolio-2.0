@@ -1,9 +1,11 @@
 import React from 'react';
 import CustomButton from '../Button';
 import { BsFillTelephoneFill } from 'react-icons/bs';
-export default function Contacts() {
+export default function Contacts({ reachMeRef }) {
   return (
-    <section className='w-full h-full overflow-hidden px-6 py-12 md:py-28'>
+    <section
+      ref={reachMeRef}
+      className='w-full h-full overflow-hidden px-6 py-12 md:py-28'>
       <div className='w-full container mx-auto'>
         <div className='flex flex-col items-center justify-center'>
           <h1 className='text-heading'>Get In Touch</h1>

@@ -5,7 +5,15 @@ import TypeWriter from '../Typewritter';
 import { AiFillEye } from 'react-icons/ai';
 import { MdOutlineWavingHand } from 'react-icons/md';
 import { Fade, Zoom } from 'react-awesome-reveal';
-export default function Hero({ data }) {
+import { useRef } from 'react';
+
+export default function Hero({ discoverRef, reachMeRef }) {
+  const handlerScroll = (ref) => {
+    window.scrollTo({
+      top: ref.offsetTop - 50,
+      behavior: 'smooth',
+    });
+  };
   return (
     <section className='w-full h-[100vh] md:h-full overflow-hidden'>
       <div className='h-full md:h-[100vh] flex flex-col justify-center'>
@@ -14,11 +22,6 @@ export default function Hero({ data }) {
           alt=''
           className='absolute inset-0'
         />
-        {/* <img
-          src='/images/b-right.png'
-          alt=''
-          className='hidden md:block absolute right-0 bottom-0'
-        /> */}
         <img
           src='/images/Pill-Blue-Glossy.svg'
           className='w-[120px] h-[120px] -bottom-0 -left-6 md:w-[140px] md:h-[225px] absolute z-10 md:bottom-0 md:-left-4 animate-float'
@@ -86,6 +89,7 @@ export default function Hero({ data }) {
                   isTransparentOrange
                   isRounded
                   type='button'
+                  onClick={() => handlerScroll(discoverRef.current)}
                   className='px-6 py-4 md:py-3 items-center text-white text-xl animate-float'>
                   <AiFillEye className='mr-1' /> Discover More
                 </CustomButton>
@@ -93,6 +97,7 @@ export default function Hero({ data }) {
                   isFlex
                   isGradientPurple
                   isRounded
+                  onClick={() => handlerScroll(reachMeRef.current)}
                   type='button'
                   className='px-6 py-4 md:py-3 items-center text-white text-xl hover:bg-gradient-orange animate-float'>
                   <MdOutlineWavingHand className='mr-1' /> Reach me
