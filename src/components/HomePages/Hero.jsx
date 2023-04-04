@@ -72,7 +72,7 @@ export default function Hero({ discoverRef, reachMeRef }) {
                 <TypeWriter
                   delay={750}
                   isLoop={true}
-                  name={['Front-End Developer.', 'UI Designer.']}
+                  name={['Front-End Developer.']}
                 />
               </h2>
               <p className='text-darkSecondary dark:text-lightSecondary normal-case'>

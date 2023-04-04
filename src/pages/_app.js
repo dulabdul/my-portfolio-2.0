@@ -6,7 +6,7 @@ export default function App({ Component, pageProps }) {
   let title = 'Home | Portfolio';
   let description = 'Website portfolio created by Abdulrahman.';
   let url = 'https://ar-portofolio.my.id/';
-  let imageUrl = 'https://source.unsplash.com/random/300x300?computer';
+  let imageUrl = '/thumbnail.jpg';
   const configSEO = {
     title: title,
     description: description,

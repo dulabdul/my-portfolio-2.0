@@ -71,9 +71,9 @@ export default function Header({
             href='/'
             className=''>
             <Image
-              width={44}
-              height={44}
-              src='/images/brand.svg'
+              width={64}
+              height={64}
+              src='/512x512.svg'
               alt='Abdul Rahman Logo'
             />
           </Navbar.Brand>
