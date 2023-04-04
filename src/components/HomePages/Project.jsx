@@ -44,7 +44,7 @@ export default function Project({ data, isLoading, isError, projectRef }) {
             cascade
             triggerOnce={true}
             delay={400}>
-            <h1 className='text-white text-4xl md:text-5xl font-semibold leading-tight after:mb-0 after:block after:mt-9 after:rounded-full after:h-1 after:w-24 after:-translate-y-1 after:bg-gradient-to-r from-[#8B5CF6] to-[#EC4899] after:content-[""]'>
+            <h1 className='dark:text-light text-dark text-4xl md:text-5xl font-semibold leading-tight after:mb-0 after:block after:mt-9 after:rounded-full after:h-1 after:w-24 after:-translate-y-1 after:bg-gradient-to-r from-[#8B5CF6] to-[#EC4899] after:content-[""]'>
               Checkout My <br /> Recent Project
             </h1>
           </Slide>
@@ -60,8 +60,10 @@ export default function Project({ data, isLoading, isError, projectRef }) {
                   type='button'
                   value={item.name}
                   onClick={handleCategoryChange}
-                  className={`text-white px-6 py-1 md:px-8 md:py-2 capitalize border border-indigo-500 ring-1 transition-all hover:bg-indigo-500 ${
-                    selectedCategory === item.name ? 'bg-indigo-500' : ''
+                  className={`text-dark dark:text-light px-6 py-1 md:px-8 md:py-2 capitalize border border-indigo-500 ring-1 transition-all hover:bg-indigo-500 hover:text-light ${
+                    selectedCategory === item.name
+                      ? 'bg-indigo-500 text-light'
+                      : ''
                   }`}>
                   {item.name}
                 </button>
@@ -118,7 +120,7 @@ export default function Project({ data, isLoading, isError, projectRef }) {
               isFlex
               isRounded
               isTransparentPurple
-              className='items-center text-2xl justify-center text-white px-8 py-2'>
+              className='items-center text-2xl justify-center dark:text-light text-dark hover:text-light px-8 py-2'>
               <CgMoreO className='mr-2' /> Load More
             </CustomButton>
           ) : (

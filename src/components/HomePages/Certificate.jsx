@@ -36,7 +36,7 @@ export default function Certificate({ data, certRef }) {
               isFlex
               isRounded
               isTransparentPurple
-              className='items-center text-2xl justify-center text-white px-8 py-2'>
+              className='items-center text-2xl justify-center text-dark dark:text-light hover:text-light px-8 py-2'>
               <CgMoreO className='mr-2' /> Load More
             </CustomButton>
           ) : (

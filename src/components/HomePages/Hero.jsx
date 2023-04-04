@@ -53,11 +53,11 @@ export default function Hero({ discoverRef, reachMeRef }) {
               damping={0.2}
               triggerOnce={true}
               delay={200}>
-              <h1 className='text-white text-5xl  md:text-4xl font-semibold'>
+              <h1 className='text-dark dark:text-light text-5xl  md:text-4xl font-semibold'>
                 Hi There👋,
               </h1>
 
-              <h1 className='text-white text-4xl font-semibold '>
+              <h1 className='text-dark dark:text-light text-4xl font-semibold '>
                 I&apos;m{' '}
                 <TypeWriter
                   delay={150}
@@ -67,7 +67,7 @@ export default function Hero({ discoverRef, reachMeRef }) {
                 />
               </h1>
 
-              <h2 className='text-white text-2xl md:text-4xl font-semibold'>
+              <h2 className='text-dark dark:text-light text-2xl md:text-4xl font-semibold'>
                 I am{' '}
                 <TypeWriter
                   delay={750}
@@ -75,7 +75,7 @@ export default function Hero({ discoverRef, reachMeRef }) {
                   name={['Front-End Developer.', 'UI Designer.']}
                 />
               </h2>
-              <p className='text-white normal-case'>
+              <p className='text-darkSecondary dark:text-lightSecondary normal-case'>
                 Turning your idea into a cool produk with a good{' '}
                 <span className='bg-gradient-orange text-transparent bg-clip-text'>
                   Web Developer.
@@ -90,7 +90,7 @@ export default function Hero({ discoverRef, reachMeRef }) {
                   isRounded
                   type='button'
                   onClick={() => handlerScroll(discoverRef.current)}
-                  className='px-6 py-4 md:py-3 items-center text-white text-xl animate-float'>
+                  className='px-6 py-4 md:py-3 items-center text-dark dark:text-light hover:text-light text-xl animate-float'>
                   <AiFillEye className='mr-1' /> Discover More
                 </CustomButton>
                 <CustomButton
@@ -99,7 +99,7 @@ export default function Hero({ discoverRef, reachMeRef }) {
                   isRounded
                   onClick={() => handlerScroll(reachMeRef.current)}
                   type='button'
-                  className='px-6 py-4 md:py-3 items-center text-white text-xl hover:bg-gradient-orange animate-float'>
+                  className='px-6 py-4 md:py-3 items-center text-light text-xl hover:bg-gradient-orange animate-float'>
                   <MdOutlineWavingHand className='mr-1' /> Reach me
                 </CustomButton>
               </div>

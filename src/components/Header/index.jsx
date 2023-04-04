@@ -4,7 +4,9 @@ import { useState, useEffect } from 'react';
 import CustomButton from '../Button';
 import { FiDownload } from 'react-icons/fi';
 import styles from './Header.module.css';
-import Link from 'next/link';
+import { useTheme } from 'next-themes';
+import { motion } from 'framer-motion';
+import { RiSunFill, RiMoonClearFill } from 'react-icons/ri';
 export default function Header({
   data,
   reachMeRef,
@@ -12,6 +14,9 @@ export default function Header({
   certRef,
   projectRef,
 }) {
+  const { systemTheme, theme, setTheme } = useTheme();
+  const currentTheme = theme === 'system' ? systemTheme : theme;
+  console.log(theme);
   const menuList = [
     {
       name: 'Home',
@@ -50,13 +55,18 @@ export default function Header({
       window.removeEventListener('scroll', listenScrollEvent);
     };
   }, []);
-
+  const spring = {
+    type: 'spring',
+    stiffness: 700,
+    damping: 30,
+  };
   return (
     <header className={`w-full z-50 fixed ${scrolledNav}`}>
       <div className='container mx-auto'>
         <Navbar
           fluid={true}
-          rounded={true}>
+          rounded={true}
+          className='dark:bg-transparent'>
           <Navbar.Brand
             href='/'
             className=''>
@@ -67,7 +77,7 @@ export default function Header({
               alt='Abdul Rahman Logo'
             />
           </Navbar.Brand>
-          <div className='flex md:order-2'>
+          <div className='flex md:order-2 gap-2'>
             <CustomButton
               href={data?.CV}
               type='link'
@@ -76,9 +86,41 @@ export default function Header({
               isGradientOrange
               isRounded
               isFlex
-              isFull
               className='button text-white hover:bg-gradient-purple items-center mr-2 md:mr-0'>
               <FiDownload className='mr-1 text-lg' /> Get CV
+            </CustomButton>
+            <CustomButton
+              type='button'
+              isGradientPurple
+              isRounded
+              isFlex
+              onClick={() =>
+                theme === 'system'
+                  ? setTheme('light')
+                  : setTheme('dark') || theme === 'dark'
+                  ? setTheme('light')
+                  : setTheme('dark')
+              }
+              className={`button text-white hover:bg-gradient-purple items-center mr-2 md:mr-0 ${
+                theme && 'place-content-end'
+              }`}>
+              <motion.div
+                layout
+                transition={spring}>
+                <motion.div whileTap={{ rotate: 360 }}>
+                  {theme !== 'system' ? (
+                    theme === 'light' ? (
+                      <RiSunFill className='h-6 w-6 text-yellow-300' />
+                    ) : (
+                      <RiMoonClearFill className='h-6 w-6 text-yellow-300' />
+                    )
+                  ) : theme === 'dark' ? (
+                    <RiMoonClearFill className='h-6 w-6 text-yellow-300' />
+                  ) : (
+                    <RiSunFill className='h-6 w-6 text-yellow-300' />
+                  )}
+                </motion.div>
+              </motion.div>
             </CustomButton>
             <Navbar.Toggle className={styles.toggle} />
           </div>
