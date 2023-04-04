@@ -43,6 +43,7 @@ export default function CustomButton(props) {
     if (props.isExternal) {
       return (
         <a
+          onClick={props.onClick}
           href={props.href}
           className={className.join(' ')}
           style={props.style}
@@ -107,4 +108,5 @@ CustomButton.propTypes = {
   isRoundedFull: propTypes.bool,
   isExternal: propTypes.bool,
   hasShadow: propTypes.bool,
+  onClick: propTypes.func,
 };
