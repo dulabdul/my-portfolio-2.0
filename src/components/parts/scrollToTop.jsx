@@ -24,7 +24,7 @@ export default function ScrollToTop() {
   return (
     <CustomButton
       onClick={scrollToTop}
-      className='items-center bg-[#F2672E] justify-center w-[50px] h-[50px] transition-all fixed bottom-[30px] right-[30px] hover:animate-pulse'
+      className='items-center bg-[#F2672E] justify-center w-[50px] h-[50px] transition-all fixed bottom-[20px] md:bottom-[30px] right-[30px] hover:animate-pulse'
       isRoundedFull
       type='button'
       style={{ display: visible ? 'flex' : 'none' }}>

@@ -14,8 +14,8 @@ export default function Certificate({ data, certRef }) {
       ref={certRef}
       className='w-full h-full overflow-hidden px-6 py-12'>
       <h1 className='text-heading'>Certificate</h1>
-      <div className='w-full mx-auto container py-8'>
-        <div className='w-full h-full grid grid-cols-1 md:grid-cols-3 items-center justify-center gap-4 py-12'>
+      <div className='w-full mx-auto container py-12'>
+        <div className='w-full h-full grid grid-cols-1 md:grid-cols-3 items-center justify-center gap-4'>
           {data?.slice(0, visible).map((cert, index) => (
             <div key={index}>
               <Card
@@ -28,7 +28,7 @@ export default function Certificate({ data, certRef }) {
             </div>
           ))}
         </div>
-        <div className='flex justify-center py-4 md:py-8'>
+        <div className='flex justify-center py-12'>
           {visible < data?.length ? (
             <CustomButton
               type='button'

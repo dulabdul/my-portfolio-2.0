@@ -36,7 +36,7 @@ export default function Project({ data, isLoading, isError, projectRef }) {
   return (
     <section
       ref={projectRef}
-      className='w-full h-full overflow-hidden px-6 py-24'>
+      className='w-full h-full overflow-hidden px-6 py-16 md:py-24'>
       <div className='w-full container mx-auto'>
         <div className='grid grid-cols-1 md:grid-cols-2 items-center justify-between'>
           <Slide

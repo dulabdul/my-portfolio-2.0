@@ -44,10 +44,10 @@ export default function Footer({ data }) {
       <div className='flex gap-y-1 items-center justify-center flex-col'>
         <div className='my-4'>
           <Image
-            src='/images/brand.svg'
+            src='/512x512.svg'
             alt='Logo Name'
-            width={60}
-            height={60}
+            width={100}
+            height={100}
           />
         </div>
         <p className='font-light flex text-center items-center justify-center text-base text-dark dark:text-slate-400'>

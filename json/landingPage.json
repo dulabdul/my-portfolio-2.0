@@ -36,38 +36,6 @@
       "imageUrl": "/images/icons/javascript.svg"
     },
     {
-      "name": "git",
-      "imageUrl": "/images/icons/git.svg"
-    },
-    {
-      "name": "adobe-xd",
-      "imageUrl": "/images/icons/adobe-xd.png"
-    },
-    {
-      "name": "figma",
-      "imageUrl": "/images/icons/figma.svg"
-    },
-    {
-      "name": "tailwind",
-      "imageUrl": "/images/icons/tailwindcss-icon.svg"
-    },
-    {
-      "name": "sass",
-      "imageUrl": "/images/icons/sass.svg"
-    },
-    {
-      "name": "webpack",
-      "imageUrl": "/images/icons/webpack.png"
-    },
-    {
-      "name": "wordpress",
-      "imageUrl": "/images/icons/wordpress.png"
-    },
-    {
-      "name": "php",
-      "imageUrl": "/images/icons/php.svg"
-    },
-    {
       "name": "react js",
       "imageUrl": "/images/icons/react.svg"
     },
@@ -80,8 +48,41 @@
       "imageUrl": "/images/icons/mongodb.svg"
     },
     {
+      "name": "tailwind",
+      "imageUrl": "/images/icons/tailwindcss-icon.svg"
+    },
+    {
+      "name": "sass",
+      "imageUrl": "/images/icons/sass.svg"
+    },
+    {
+      "name": "material ui",
+      "imageUrl": "/images/icons/mui.svg"
+    },
+    {
+      "name": "tyscripts",
+      "imageUrl": "/images/icons/ts.svg"
+    },
+    {
+      "name": "git",
+      "imageUrl": "/images/icons/git.svg"
+    },
+    {
+      "name": "figma",
+      "imageUrl": "/images/icons/figma.svg"
+    },
+    {
+      "name": "php",
+      "imageUrl": "/images/icons/php.svg"
+    },
+
+    {
       "name": "pwa",
       "imageUrl": "/images/icons/pwa1.png"
+    },
+    {
+      "name": "wordpress",
+      "imageUrl": "/images/icons/wordpress.png"
     }
   ],
   "categories": [
