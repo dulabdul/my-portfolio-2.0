@@ -6,7 +6,8 @@ export default function App({ Component, pageProps }) {
   let title = 'Home | Portfolio';
   let description = 'Website portfolio created by Abdulrahman.';
   let url = 'https://ar-portofolio.my.id/';
-  let imageUrl = 'https://source.unsplash.com/random/?computer';
+  let imageUrl1 = '/images/og-300x300.jpg';
+  let imageUrl2 = '/images/og-img.jpg';
   const configSEO = {
     title: title,
     description: description,
@@ -18,7 +19,14 @@ export default function App({ Component, pageProps }) {
       siteName: 'SiteName',
       images: [
         {
-          url: imageUrl,
+          url: imageUrl1,
+          width: 256,
+          height: 256,
+          alt: title,
+          type: 'image/jpeg',
+        },
+        {
+          url: imageUrl2,
           width: 1200,
           height: 630,
           alt: title,
