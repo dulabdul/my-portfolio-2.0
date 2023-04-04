@@ -1,7 +1,14 @@
 import React from 'react';
 import CustomButton from '../Button';
 import { BsFillTelephoneFill } from 'react-icons/bs';
+import { event } from 'nextjs-google-analytics';
+
 export default function Contacts({ reachMeRef }) {
+  const handleClick = () => {
+    event('view_wa', {
+      category: 'Contacts',
+    });
+  };
   return (
     <section
       ref={reachMeRef}
@@ -17,6 +24,7 @@ export default function Contacts({ reachMeRef }) {
           <CustomButton
             type='link'
             isExternal
+            onClick={handleClick}
             target='_blank'
             isRounded
             isFlex

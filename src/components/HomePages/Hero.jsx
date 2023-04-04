@@ -5,7 +5,7 @@ import TypeWriter from '../Typewritter';
 import { AiFillEye } from 'react-icons/ai';
 import { MdOutlineWavingHand } from 'react-icons/md';
 import { Fade, Zoom } from 'react-awesome-reveal';
-import { useRef } from 'react';
+import { event } from 'nextjs-google-analytics';
 
 export default function Hero({ discoverRef, reachMeRef }) {
   const handlerScroll = (ref) => {
@@ -13,7 +13,11 @@ export default function Hero({ discoverRef, reachMeRef }) {
       top: ref.offsetTop - 50,
       behavior: 'smooth',
     });
+    event('reach_me', {
+      category: 'Contacts',
+    });
   };
+
   return (
     <section className='w-full h-[100vh] md:h-full overflow-hidden'>
       <div className='h-full md:h-[100vh] flex flex-col justify-center'>
