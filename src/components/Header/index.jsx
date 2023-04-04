@@ -7,6 +7,7 @@ import styles from './Header.module.css';
 import { useTheme } from 'next-themes';
 import { motion } from 'framer-motion';
 import { RiSunFill, RiMoonClearFill } from 'react-icons/ri';
+import { event } from 'nextjs-google-analytics';
 export default function Header({
   data,
   reachMeRef,
@@ -40,6 +41,12 @@ export default function Header({
     },
   ];
   const [scrolledNav, setScrolledNav] = useState(null);
+
+  const handleClickCv = () => {
+    event('view_cv', {
+      category: 'CV',
+    });
+  };
   const handlerScroll = (ref) => {
     window.scrollTo({
       top: ref.offsetTop - 50,
@@ -81,6 +88,7 @@ export default function Header({
             <CustomButton
               href={data?.CV}
               type='link'
+              onClick={handleClickCv}
               isExternal
               target='_blank'
               isGradientOrange

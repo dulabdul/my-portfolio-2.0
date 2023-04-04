@@ -1,7 +1,7 @@
 import '@/styles/globals.css';
 import { DefaultSeo } from 'next-seo';
 import { ThemeProvider } from 'next-themes';
-
+import { GoogleAnalytics } from 'nextjs-google-analytics';
 export default function App({ Component, pageProps }) {
   let title = 'Home | Portfolio';
   let description = 'Website portfolio created by Abdulrahman.';
@@ -29,6 +29,7 @@ export default function App({ Component, pageProps }) {
   };
   return (
     <ThemeProvider attribute='class'>
+      <GoogleAnalytics strategy='lazyOnload' />
       <DefaultSeo {...configSEO} />
       <Component {...pageProps} />
     </ThemeProvider>
