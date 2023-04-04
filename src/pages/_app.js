@@ -19,8 +19,8 @@ export default function App({ Component, pageProps }) {
       images: [
         {
           url: imageUrl,
-          width: 800,
-          height: 600,
+          width: 1200,
+          height: 630,
           alt: title,
           type: 'image/jpeg',
         },
