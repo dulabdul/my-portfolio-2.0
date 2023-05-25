@@ -1,6 +1,6 @@
 {
   "hero": {
-    "CV": "https://drive.google.com/file/d/1DKd16eFz8orXQM-Gq_iZ1W93GC9iE-cB/view?usp=share_link"
+    "CV": "https://drive.google.com/file/d/1Eo5JCvavYPZANfQxq0tmUIMvNXLanks4/view?usp=share_link"
   },
   "contacts": {
     "social": [
@@ -40,6 +40,10 @@
       "imageUrl": "/images/icons/react.svg"
     },
     {
+      "name": "next js",
+      "imageUrl": "/images/icons/nextjs.svg"
+    },
+    {
       "name": "node js",
       "imageUrl": "/images/icons/nodejs.png"
     },
@@ -50,6 +54,10 @@
     {
       "name": "tailwind",
       "imageUrl": "/images/icons/tailwindcss-icon.svg"
+    },
+    {
+      "name": "bootstrap",
+      "imageUrl": "/images/icons/bootstrap.svg"
     },
     {
       "name": "sass",
