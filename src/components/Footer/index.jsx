@@ -7,16 +7,10 @@ import {
   AiOutlineMail,
   AiFillHeart,
 } from 'react-icons/ai';
-import { event } from 'nextjs-google-analytics';
 
 export default function Footer({ data }) {
   const d = new Date();
   let year = d.getFullYear();
-  const handleClick = (name) => {
-    event(name, {
-      category: 'Contacts',
-    });
-  };
 
   function renderSwitch(param) {
     switch (param) {
@@ -73,7 +67,6 @@ export default function Footer({ data }) {
               type='link'
               isRoundedFull
               isFlex
-              onClick={handleClick(`view_${item.name}`)}
               isExternal
               target='_blank'
               href={item.url}
