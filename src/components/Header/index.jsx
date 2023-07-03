@@ -17,7 +17,6 @@ export default function Header({
 }) {
   const { systemTheme, theme, setTheme } = useTheme();
   const currentTheme = theme === 'system' ? systemTheme : theme;
-  console.log(theme);
   const menuList = [
     {
       name: 'Home',
