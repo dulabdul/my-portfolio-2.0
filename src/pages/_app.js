@@ -32,9 +32,9 @@ export default function App({ Component, pageProps }) {
   return (
     <ThemeProvider attribute='class'>
       <GoogleAnalytics strategy='lazyOnload' />
-      <Analytics />
       <DefaultSeo {...configSEO} />
       <Component {...pageProps} />
+      <Analytics />
     </ThemeProvider>
   );
 }
