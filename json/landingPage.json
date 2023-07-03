@@ -1,6 +1,6 @@
 {
   "hero": {
-    "CV": "https://drive.google.com/file/d/1aKtGlFN4_KCh3RAv68YJym4dXRLsV12a/view?usp=sharing"
+    "CV": "https://drive.google.com/file/d/1HKmNFdqaCkSV-cB1pt5Ubn8Q3wV-WEOz/view?usp=sharing"
   },
   "contacts": {
     "social": [
@@ -124,6 +124,37 @@
         },
         {
           "id": 2,
+          "title": "Minerva Rooms",
+          "description": "<p>Minerva rooms is website to rental apartement daily, weekly, or monthly. This website using Next js & Tailwind CSS for my freelancer project</p>",
+          "demo": "https://www.minervarooms.com",
+          "github": "",
+          "imageUrl": "/images/project/minerva.png",
+          "stacks": [
+            {
+              "name": "react js"
+            },
+            {
+              "name": "next js"
+            },
+            {
+              "name": "html"
+            },
+            {
+              "name": "css"
+            },
+            {
+              "name": "Tailwind CSS"
+            },
+            {
+              "name": "Node JS"
+            },
+            {
+              "name": "Google Analytics 4"
+            }
+          ]
+        },
+        {
+          "id": 3,
           "title": "LuxSpace",
           "description": "<p>An website to display product, like website e-commerce. You can add product to cart & checkout product</p>",
           "demo": "https://luxspace-omega.vercel.app/",
@@ -150,8 +181,9 @@
             }
           ]
         },
+
         {
-          "id": 3,
+          "id": 4,
           "title": "Space Consultant",
           "description": "<p>Landing pages consultant website. The design slicing from <a target='_blank' href='https://www.figma.com/file/TOnPf1bMMjxO0NdTqF3LEx/Landing-page-UI-Kit-%2B-Components-(Community)?t=PLHx8QZu2c6iU1tm-1'>Figma</a></p>",
           "demo": "https://consultan-ads.vercel.app/",
@@ -176,7 +208,7 @@
           ]
         },
         {
-          "id": 4,
+          "id": 5,
           "title": "Movie App",
           "description": "<p>This website to show list movie, you can see displaying now, upcoming movies, popular film, and film with highest rating. You can save the movie with like button.</p>",
           "demo": "https://nonton-kuy.web.app/",
@@ -219,7 +251,7 @@
           ]
         },
         {
-          "id": 5,
+          "id": 6,
           "title": "Notes App",
           "description": "<p>You can create, delete,archived the notes. Have a feature dark or light theme, langauge switcher, and search your notes.</p>",
           "demo": "https://notes-app-react-liart.vercel.app/",
@@ -244,7 +276,7 @@
           ]
         },
         {
-          "id": 6,
+          "id": 7,
           "title": "TripVacation",
           "description": "<p>A travel information, you can order travel with this website.</p>",
           "demo": "https://tripvaction.vercel.app/",
@@ -275,9 +307,9 @@
           ]
         },
         {
-          "id": 7,
+          "id": 8,
           "title": "Publik Nasional",
-          "description": "<p>A news website, creating with wordpress</p>",
+          "description": "<p>A news website, creating with wordpress for my freelancer project</p>",
           "demo": "https://publiknasional.com/",
           "github": null,
           "imageUrl": "/images/project/publikNasional.png",
@@ -288,7 +320,7 @@
           ]
         },
         {
-          "id": 8,
+          "id": 9,
           "title": "Refine Server Dashboard",
           "description": "<p>A example backend dashboard build with <a target='_blank' href='https://refine.dev/'>Refine</a> technology. Log in use auth google</p>",
           "demo": "https://rentcar-dashboard.netlify.app/",
@@ -316,7 +348,7 @@
           ]
         },
         {
-          "id": 9,
+          "id": 10,
           "title": "TripVacation Dashboard",
           "description": "<p>Backend dashboard from website travel <a target='_blank' href='https://tripvaction.vercel.app/'>TripVacation</a></p>",
           "demo": null,
@@ -350,7 +382,7 @@
           ]
         },
         {
-          "id": 10,
+          "id": 11,
           "title": "Sistem Informasi Perpustakaan",
           "description": "<p>System management for library, created with Php native</p>",
           "demo": null,
@@ -400,6 +432,37 @@
         },
         {
           "id": 2,
+          "title": "Minerva Rooms",
+          "description": "<p>Minerva rooms is website to rental apartement daily, weekly, or monthly. This website using Next js & Tailwind CSS for my freelancer project</p>",
+          "demo": "https://www.minervarooms.com",
+          "github": "",
+          "imageUrl": "/images/project/minerva.png",
+          "stacks": [
+            {
+              "name": "react js"
+            },
+            {
+              "name": "next js"
+            },
+            {
+              "name": "html"
+            },
+            {
+              "name": "css"
+            },
+            {
+              "name": "Tailwind CSS"
+            },
+            {
+              "name": "Node JS"
+            },
+            {
+              "name": "Google Analytics 4"
+            }
+          ]
+        },
+        {
+          "id": 3,
           "title": "LuxSpace",
           "description": "<p>An website to display product, like website e-commerce. You can add product to cart & checkout product</p>",
           "demo": "https://luxspace-omega.vercel.app/",
@@ -427,7 +490,7 @@
           ]
         },
         {
-          "id": 3,
+          "id": 4,
           "title": "Space Consultant",
           "description": "<p>Landing pages consultant website. The design slicing from <a target='_blank' href='https://www.figma.com/file/TOnPf1bMMjxO0NdTqF3LEx/Landing-page-UI-Kit-%2B-Components-(Community)?t=PLHx8QZu2c6iU1tm-1'>Figma</a></p>",
           "demo": "https://consultan-ads.vercel.app/",
@@ -452,7 +515,7 @@
           ]
         },
         {
-          "id": 4,
+          "id": 5,
           "title": "Movie App",
           "description": "<p>This website to show list movie, you can see displaying now, upcoming movies, popular film, and film with highest rating. You can save the movie with like button.</p>",
           "demo": "https://nonton-kuy.web.app/",
@@ -495,7 +558,7 @@
           ]
         },
         {
-          "id": 5,
+          "id": 6,
           "title": "Notes App",
           "description": "<p>You can create, delete,archived the notes. Have a feature dark or light theme, langauge switcher, and search your notes.</p>",
           "demo": "https://notes-app-react-liart.vercel.app/",
@@ -520,7 +583,7 @@
           ]
         },
         {
-          "id": 6,
+          "id": 7,
           "title": "TripVacation",
           "description": "<p>A travel information, you can order travel with this website.</p>",
           "demo": "https://tripvaction.vercel.app/",
@@ -551,7 +614,7 @@
           ]
         },
         {
-          "id": 7,
+          "id": 8,
           "title": "Publik Nasional",
           "description": "<p>A news website, creating with wordpress</p>",
           "demo": "https://publiknasional.com/",

@@ -36,8 +36,8 @@ export default function About({ discoverRef }) {
                 freelance experienced Front End Web Developer with a passion for
                 creating engaging and user-friendly digital experiences. I
                 possess a strong skill set in HTML, CSS 3, Javascript, React JS,
-                Node JS, Next JS, MongoDb, NodeJS, PWA, Git, Tailwindcss,
-                Bootstrap, SASS, and Figma.
+                Node JS, Next JS, MongoDb, PWA, Tailwindcss, Bootstrap, Figma,
+                Git, Jira, Typescripts, and Material UI
               </p>
               <br />
               <p className='dark:text-slate-400 text-darkSecondary  md:leading-relaxed leading-6'>
