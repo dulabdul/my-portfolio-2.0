@@ -20,6 +20,7 @@ export default function Hero({ discoverRef, reachMeRef }) {
       <div className='h-full md:h-[100vh] flex flex-col justify-center'>
         <Image
           src='/images/t-left.png'
+          loading='eager'
           alt='T left'
           width={500}
           height={500}
