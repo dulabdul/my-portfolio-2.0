@@ -107,7 +107,7 @@ export default function Card({
                   target='_blank'
                   isTransparentPurple
                   isRounded
-                  href={demo}
+                  href={demo !== null ? demo : '/'}
                   className={`text-white px-8 py-1 ${
                     demo === null ? 'hidden' : ''
                   }`}>
@@ -120,7 +120,7 @@ export default function Card({
                   target='_blank'
                   isTransparentPurple
                   isRounded
-                  href={github}
+                  href={github !== null ? demo : '/'}
                   className={`text-white px-8 py-1 ${
                     github === null ? 'hidden' : ''
                   }`}>
