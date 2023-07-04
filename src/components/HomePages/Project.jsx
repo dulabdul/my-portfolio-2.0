@@ -116,6 +116,7 @@ export default function Project({ data, isLoading, isError, projectRef }) {
           {visible < showMoreFunc() ? (
             <CustomButton
               type='button'
+              ariaLabel='load more my portfolio project'
               onClick={showMore}
               isFlex
               isRounded

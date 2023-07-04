@@ -32,6 +32,7 @@ export default function Certificate({ data, certRef }) {
           {visible < data?.length ? (
             <CustomButton
               type='button'
+              ariaLabel='load more certificate'
               onClick={showMore}
               isFlex
               isRounded

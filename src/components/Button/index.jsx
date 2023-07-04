@@ -43,6 +43,7 @@ export default function CustomButton(props) {
     if (props.isExternal) {
       return (
         <a
+          aria-label={props.ariaLabel}
           onClick={props.onClick}
           href={props.href}
           className={className.join(' ')}
@@ -66,6 +67,7 @@ export default function CustomButton(props) {
   } else if (props.isDisabled) {
     return (
       <button
+        aria-label={props.ariaLabel}
         className={className.join(' ')}
         style={props.style}
         value={props.value}
@@ -78,6 +80,7 @@ export default function CustomButton(props) {
 
   return (
     <button
+      aria-label={props.ariaLabel}
       className={className.join(' ')}
       style={props.style}
       onClick={onClick}>
@@ -100,6 +103,7 @@ CustomButton.propTypes = {
   isBlock: propTypes.bool,
   isFlex: propTypes.bool,
   isFull: propTypes.bool,
+  ariaLabel: propTypes.bool,
   isTransparentOrange: propTypes.bool,
   isTransparentPurple: propTypes.bool,
   isGradientOrange: propTypes.bool,

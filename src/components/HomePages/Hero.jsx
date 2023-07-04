@@ -5,6 +5,7 @@ import TypeWriter from '../Typewritter';
 import { AiFillEye } from 'react-icons/ai';
 import { MdOutlineWavingHand } from 'react-icons/md';
 import { Fade, Zoom } from 'react-awesome-reveal';
+import Image from 'next/image';
 
 export default function Hero({ discoverRef, reachMeRef }) {
   const handlerScroll = (ref) => {
@@ -17,25 +18,33 @@ export default function Hero({ discoverRef, reachMeRef }) {
   return (
     <section className='w-full h-[100vh] md:h-full overflow-hidden'>
       <div className='h-full md:h-[100vh] flex flex-col justify-center'>
-        <img
+        <Image
           src='/images/t-left.png'
-          alt=''
+          alt='T left'
+          width={500}
+          height={500}
           className='absolute inset-0'
         />
-        <img
+        <Image
           src='/images/Pill-Blue-Glossy.svg'
+          width={500}
+          height={500}
           className='w-[120px] h-[120px] -bottom-0 -left-6 md:w-[140px] md:h-[225px] absolute z-10 md:bottom-0 md:-left-4 animate-float'
-          alt=''
+          alt='Pill Blue Glossy'
         />
-        <img
+        <Image
           src='/images/RoundCube-Orange-Glossy.svg'
+          width={500}
+          height={500}
           className='w-[70px] h-[70px] bottom-[4%] right-0 md:w-[94px] md:h-[94px] absolute z-10 md:bottom-[4%] md:right-[25%] animate-float'
-          alt=''
+          alt='Round Cube Orange'
         />
-        <img
+        <Image
           src='/images/SuperToroid-Yellow-Glossy.svg'
+          width={500}
+          height={500}
           className='w-[200px] h-[200px] bottom-0 right-0 md:w-[252px] md:h-[252px] absolute md:bottom-0 animate-float'
-          alt=''
+          alt='SuperToroid Yellow Glossy'
         />
 
         <div
@@ -67,14 +76,14 @@ export default function Hero({ discoverRef, reachMeRef }) {
                 />
               </h1>
 
-              <h2 className='text-dark dark:text-light text-2xl md:text-4xl font-semibold'>
+              <h1 className='text-dark dark:text-light text-2xl md:text-4xl font-semibold'>
                 I am{' '}
                 <TypeWriter
                   delay={750}
                   isLoop={true}
                   name={['Front-End Developer.']}
                 />
-              </h2>
+              </h1>
               <p className='text-darkSecondary dark:text-lightSecondary normal-case'>
                 Turning your idea into a cool produk with a good{' '}
                 <span className='bg-gradient-orange text-transparent bg-clip-text'>
@@ -86,6 +95,7 @@ export default function Hero({ discoverRef, reachMeRef }) {
               <div className='flex flex-wrap md:flex-nowrap gap-y-8 md:gap-y-0 mt-4 md:mt-0 gap-x-4 justify-center md:justify-start'>
                 <CustomButton
                   isFlex
+                  ariaLabel='discover more section'
                   isTransparentOrange
                   isRounded
                   type='button'
@@ -97,6 +107,7 @@ export default function Hero({ discoverRef, reachMeRef }) {
                   isFlex
                   isGradientPurple
                   isRounded
+                  ariaLabel='reach me to discuss your idea'
                   onClick={() => handlerScroll(reachMeRef.current)}
                   type='button'
                   className='px-6 py-4 md:py-3 items-center text-light text-xl hover:bg-gradient-orange animate-float'>
@@ -111,10 +122,12 @@ export default function Hero({ discoverRef, reachMeRef }) {
               cascade
               triggerOnce={true}
               delay={200}>
-              <img
+              <Image
                 src='/images/Salty-13.png'
                 className='w-[420px] h-[420px]'
-                alt=''
+                width={500}
+                height={500}
+                alt='Salty'
               />
             </Zoom>
           </div>

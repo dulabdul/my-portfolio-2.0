@@ -102,6 +102,7 @@ export default function Card({
               <div className='flex items-center gap-x-4 mt-4 mb-1'>
                 <CustomButton
                   type='link'
+                  ariaLabel={`Visit URL Demo ${title}`}
                   isExternal
                   target='_blank'
                   isTransparentPurple
@@ -115,6 +116,7 @@ export default function Card({
                 <CustomButton
                   type='link'
                   isExternal
+                  ariaLabel={`visit URL Github ${title}`}
                   target='_blank'
                   isTransparentPurple
                   isRounded
@@ -133,6 +135,7 @@ export default function Card({
               */}
           {credentialUrl ? (
             <CustomButton
+              ariaLabel={`visit URL Github ${title}`}
               className='z-10 absolute inset-0 bg-transparent'
               type='link'
               isExternal

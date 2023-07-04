@@ -82,6 +82,7 @@ export default function Header({
             <CustomButton
               href={data?.CV}
               type='link'
+              ariaLabel={`visit cv`}
               isExternal
               target='_blank'
               isGradientOrange
@@ -92,6 +93,7 @@ export default function Header({
             </CustomButton>
             <CustomButton
               type='button'
+              ariaLabel='button change theme'
               isGradientPurple
               isRounded
               isFlex
@@ -131,6 +133,7 @@ export default function Header({
                 key={index}
                 className='mt-2'>
                 <CustomButton
+                  ariaLabel='scroll button'
                   onClick={() => handlerScroll(item.destination)}
                   type='button'
                   className='text-hover'>
