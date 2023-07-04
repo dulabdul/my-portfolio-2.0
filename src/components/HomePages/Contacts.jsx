@@ -21,7 +21,8 @@ export default function Contacts({ reachMeRef }) {
             target='_blank'
             isRounded
             isFlex
-            href='#'
+            ariaLabel='reach me for discuss your idea'
+            href='https://api.whatsapp.com/send?phone=6289675293838&text=Hello%20Abdul%2C%20i%20want%20discuss%20about%20my%20idea!'
             isTransparentPurple
             className='px-8 py-2 dark:text-light text-dark hover:text-light text-2xl cursor-pointer items-center'>
             <BsFillTelephoneFill className='mr-2' /> Reach Me

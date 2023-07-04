@@ -1,7 +1,7 @@
 .profile-img {
   webkit-animation: profile_animate 8s ease-in-out 1s infinite;
   animation: profile_animate 8s ease-in-out 1s infinite;
-  background: url('/images/me.png');
+  background: url('/images/me.webp');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;

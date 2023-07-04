@@ -67,6 +67,7 @@ export default function Footer({ data }) {
               type='link'
               isRoundedFull
               isFlex
+              ariaLabel={`Visit URL Media Sosial ${item.name}`}
               isExternal
               target='_blank'
               href={item.url}

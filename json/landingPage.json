@@ -103,7 +103,7 @@
           "description": "<p>This website to rent car. Design slicing from <a target='_blank' href='https://www.figma.com/file/T4TpkUspVRN9SNCZWtKEy2/CarMania---Landing-Page-(Community)?node-id=0%3A1&t=PLHx8QZu2c6iU1tm-1'>Figma</a></p>",
           "demo": "https://rent-car-theta.vercel.app/",
           "github": "https://github.com/dulabdul/rent-car",
-          "imageUrl": "/images/project/rentCar.png",
+          "imageUrl": "/images/project/rentCar.webp",
           "stacks": [
             {
               "name": "react"
@@ -128,7 +128,7 @@
           "description": "<p>Minerva rooms is website to rental apartement daily, weekly, or monthly. This website using Next js & Tailwind CSS for my freelancer project</p>",
           "demo": "https://www.minervarooms.com",
           "github": "",
-          "imageUrl": "/images/project/minerva.png",
+          "imageUrl": "/images/project/minerva.webp",
           "stacks": [
             {
               "name": "react js"
@@ -159,7 +159,7 @@
           "description": "<p>An website to display product, like website e-commerce. You can add product to cart & checkout product</p>",
           "demo": "https://luxspace-omega.vercel.app/",
           "github": "https://github.com/dulabdul/bwa-handoff",
-          "imageUrl": "/images/project/luxSpace.png",
+          "imageUrl": "/images/project/luxSpace.webp",
           "stacks": [
             {
               "name": "react"
@@ -188,7 +188,7 @@
           "description": "<p>Landing pages consultant website. The design slicing from <a target='_blank' href='https://www.figma.com/file/TOnPf1bMMjxO0NdTqF3LEx/Landing-page-UI-Kit-%2B-Components-(Community)?t=PLHx8QZu2c6iU1tm-1'>Figma</a></p>",
           "demo": "https://consultan-ads.vercel.app/",
           "github": "https://github.com/dulabdul/consultan_ads.git",
-          "imageUrl": "/images/project/consultant.png",
+          "imageUrl": "/images/project/consultant.webp",
           "stacks": [
             {
               "name": "react"
@@ -213,7 +213,7 @@
           "description": "<p>This website to show list movie, you can see displaying now, upcoming movies, popular film, and film with highest rating. You can save the movie with like button.</p>",
           "demo": "https://nonton-kuy.web.app/",
           "github": "https://github.com/dulabdul/movie-katalog",
-          "imageUrl": "/images/project/movieApp.png",
+          "imageUrl": "/images/project/movieApp.webp",
           "stacks": [
             {
               "name": "javascript"
@@ -256,7 +256,7 @@
           "description": "<p>You can create, delete,archived the notes. Have a feature dark or light theme, langauge switcher, and search your notes.</p>",
           "demo": "https://notes-app-react-liart.vercel.app/",
           "github": "https://github.com/dulabdul/consultan_ads.git",
-          "imageUrl": "/images/project/notesApp.png",
+          "imageUrl": "/images/project/notesApp.webp",
           "stacks": [
             {
               "name": "react"
@@ -281,7 +281,7 @@
           "description": "<p>A travel information, you can order travel with this website.</p>",
           "demo": "https://tripvaction.vercel.app/",
           "github": "https://github.com/dulabdul/MERN-TripVacation",
-          "imageUrl": "/images/project/tripvacation.png",
+          "imageUrl": "/images/project/tripvacation.webp",
           "stacks": [
             {
               "name": "react"
@@ -312,7 +312,7 @@
           "description": "<p>A news website, creating with wordpress for my freelancer project</p>",
           "demo": "https://publiknasional.com/",
           "github": null,
-          "imageUrl": "/images/project/publikNasional.png",
+          "imageUrl": "/images/project/publikNasional.webp",
           "stacks": [
             {
               "name": "wordpress CMS"
@@ -325,7 +325,7 @@
           "description": "<p>A example backend dashboard build with <a target='_blank' href='https://refine.dev/'>Refine</a> technology. Log in use auth google</p>",
           "demo": "https://rentcar-dashboard.netlify.app/",
           "github": "https://github.com/dulabdul/refine_dashboard_car",
-          "imageUrl": "/images/project/refineDashboard.png",
+          "imageUrl": "/images/project/refineDashboard.webp",
           "stacks": [
             {
               "name": "react"
@@ -353,7 +353,7 @@
           "description": "<p>Backend dashboard from website travel <a target='_blank' href='https://tripvaction.vercel.app/'>TripVacation</a></p>",
           "demo": null,
           "github": "https://github.com/dulabdul/server-tripvacation",
-          "imageUrl": "/images/project/server-tripvacation.png",
+          "imageUrl": "/images/project/server-tripvacation.webp",
           "stacks": [
             {
               "name": "express JS"
@@ -387,7 +387,7 @@
           "description": "<p>System management for library, created with Php native</p>",
           "demo": null,
           "github": "https://github.com/dulabdul/Sistem-informasi-Perpustakaan",
-          "imageUrl": "/images/project/sipus.png",
+          "imageUrl": "/images/project/sipus.webp",
           "stacks": [
             {
               "name": "php"
@@ -411,7 +411,7 @@
           "description": "<p>This website to rent car. Design slicing from <a target='_blank' href='https://www.figma.com/file/T4TpkUspVRN9SNCZWtKEy2/CarMania---Landing-Page-(Community)?node-id=0%3A1&t=PLHx8QZu2c6iU1tm-1'>Figma</a></p>",
           "demo": "https://rent-car-theta.vercel.app/",
           "github": "https://github.com/dulabdul/rent-car",
-          "imageUrl": "/images/project/rentCar.png",
+          "imageUrl": "/images/project/rentCar.webp",
           "stacks": [
             {
               "name": "react"
@@ -436,7 +436,7 @@
           "description": "<p>Minerva rooms is website to rental apartement daily, weekly, or monthly. This website using Next js & Tailwind CSS for my freelancer project</p>",
           "demo": "https://www.minervarooms.com",
           "github": "",
-          "imageUrl": "/images/project/minerva.png",
+          "imageUrl": "/images/project/minerva.webp",
           "stacks": [
             {
               "name": "react js"
@@ -467,7 +467,7 @@
           "description": "<p>An website to display product, like website e-commerce. You can add product to cart & checkout product</p>",
           "demo": "https://luxspace-omega.vercel.app/",
           "github": "https://github.com/dulabdul/bwa-handoff",
-          "imageUrl": "/images/project/luxSpace.png",
+          "imageUrl": "/images/project/luxSpace.webp",
           "stacks": [
             {
               "name": "react"
@@ -495,7 +495,7 @@
           "description": "<p>Landing pages consultant website. The design slicing from <a target='_blank' href='https://www.figma.com/file/TOnPf1bMMjxO0NdTqF3LEx/Landing-page-UI-Kit-%2B-Components-(Community)?t=PLHx8QZu2c6iU1tm-1'>Figma</a></p>",
           "demo": "https://consultan-ads.vercel.app/",
           "github": "https://github.com/dulabdul/consultan_ads.git",
-          "imageUrl": "/images/project/consultant.png",
+          "imageUrl": "/images/project/consultant.webp",
           "stacks": [
             {
               "name": "react"
@@ -520,7 +520,7 @@
           "description": "<p>This website to show list movie, you can see displaying now, upcoming movies, popular film, and film with highest rating. You can save the movie with like button.</p>",
           "demo": "https://nonton-kuy.web.app/",
           "github": "https://github.com/dulabdul/movie-katalog",
-          "imageUrl": "/images/project/movieApp.png",
+          "imageUrl": "/images/project/movieApp.webp",
           "stacks": [
             {
               "name": "javascript"
@@ -563,7 +563,7 @@
           "description": "<p>You can create, delete,archived the notes. Have a feature dark or light theme, langauge switcher, and search your notes.</p>",
           "demo": "https://notes-app-react-liart.vercel.app/",
           "github": "https://github.com/dulabdul/consultan_ads.git",
-          "imageUrl": "/images/project/notesApp.png",
+          "imageUrl": "/images/project/notesApp.webp",
           "stacks": [
             {
               "name": "react"
@@ -588,7 +588,7 @@
           "description": "<p>A travel information, you can order travel with this website.</p>",
           "demo": "https://tripvaction.vercel.app/",
           "github": "https://github.com/dulabdul/MERN-TripVacation",
-          "imageUrl": "/images/project/tripvacation.png",
+          "imageUrl": "/images/project/tripvacation.webp",
           "stacks": [
             {
               "name": "react"
@@ -619,7 +619,7 @@
           "description": "<p>A news website, creating with wordpress</p>",
           "demo": "https://publiknasional.com/",
           "github": null,
-          "imageUrl": "/images/project/publikNasional.png",
+          "imageUrl": "/images/project/publikNasional.webp",
           "stacks": [
             {
               "name": "wordpress CMS"
@@ -637,7 +637,7 @@
           "description": "<p>A example backend dashboard build with <a target='_blank' href='https://refine.dev/'>Refine</a> technology. Log in use auth google</p>",
           "demo": "https://rentcar-dashboard.netlify.app/",
           "github": "https://github.com/dulabdul/refine_dashboard_car",
-          "imageUrl": "/images/project/refineDashboard.png",
+          "imageUrl": "/images/project/refineDashboard.webp",
           "stacks": [
             {
               "name": "react"
@@ -665,7 +665,7 @@
           "description": "<p>Backend dashboard from website travel <a target='_blank' href='https://tripvaction.vercel.app/'>TripVacation</a></p>",
           "demo": null,
           "github": "https://github.com/dulabdul/server-tripvacation",
-          "imageUrl": "/images/project/server-tripvacation.png",
+          "imageUrl": "/images/project/server-tripvacation.webp",
           "stacks": [
             {
               "name": "express JS"
@@ -699,7 +699,7 @@
           "description": "<p>System management for library, created with Php native</p>",
           "demo": null,
           "github": "https://github.com/dulabdul/Sistem-informasi-Perpustakaan",
-          "imageUrl": "/images/project/sipus.png",
+          "imageUrl": "/images/project/sipus.webp",
           "stacks": [
             {
               "name": "php"
@@ -721,77 +721,77 @@
       "id": "cert-1",
       "title": "Learn Solid Programming Principles",
       "platform": "dicoding indonesia",
-      "imageUrl": "/images/certificate/solid.jpg",
+      "imageUrl": "/images/certificate/solid.webp",
       "credentialUrl": "https://www.dicoding.com/certificates/L4PQM1E92ZO1"
     },
     {
       "id": "cert-2",
       "title": "Learn Basic Web Progamming",
       "platform": "dicoding indonesia",
-      "imageUrl": "/images/certificate/dasar-web.jpg",
+      "imageUrl": "/images/certificate/dasar-web.webp",
       "credentialUrl": "https://www.dicoding.com/certificates/2VX31YD83ZYQ"
     },
     {
       "id": "cert-3",
       "title": "Learn Basic Javascript Programming",
       "platform": "dicoding indonesia",
-      "imageUrl": "/images/certificate/dasar-javascript.jpg",
+      "imageUrl": "/images/certificate/dasar-javascript.webp",
       "credentialUrl": "https://www.dicoding.com/certificates/1OP8616L2XQK"
     },
     {
       "id": "cert-4",
       "title": "Learn to Create Web Front-End For Beginners",
       "platform": "dicoding indonesia",
-      "imageUrl": "/images/certificate/fundamental-pemula.jpg",
+      "imageUrl": "/images/certificate/fundamental-pemula.webp",
       "credentialUrl": "https://www.dicoding.com/certificates/NVP7K7KGOZR0"
     },
     {
       "id": "cert-5",
       "title": "Learn Front-End Web Development Fundamentals",
       "platform": "dicoding indonesia",
-      "imageUrl": "/images/certificate/fundamental.jpg",
+      "imageUrl": "/images/certificate/fundamental.webp",
       "credentialUrl": "https://www.dicoding.com/certificates/GRX5GO3WVX0M"
     },
     {
       "id": "cert-6",
       "title": "Learn to Build Web Apps with React",
       "platform": "dicoding indonesia",
-      "imageUrl": "/images/certificate/react-pemula.jpg",
+      "imageUrl": "/images/certificate/react-pemula.webp",
       "credentialUrl": "https://www.dicoding.com/certificates/GRX5LOLLRP0M"
     },
     {
       "id": "cert-7",
       "title": "Build Progressive Web Apps",
       "platform": "dicoding indonesia",
-      "imageUrl": "/images/certificate/mpwa.jpg",
+      "imageUrl": "/images/certificate/mpwa.webp",
       "credentialUrl": "https://www.dicoding.com/certificates/L4PQM1E92ZO1"
     },
     {
       "id": "cert-8",
       "title": "Become a Front-End Web Developer Expert",
       "platform": "dicoding indonesia",
-      "imageUrl": "/images/certificate/mfwde.jpg",
+      "imageUrl": "/images/certificate/mfwde.webp",
       "credentialUrl": "https://www.dicoding.com/certificates/MEPJLEER6Z3V"
     },
     {
       "id": "cert-9",
       "title": "Junior Web Developer",
       "platform": "Indonesian Professional Certification Authority",
-      "imageUrl": "/images/certificate/bnsp-jrweb.jpg",
+      "imageUrl": "/images/certificate/bnsp-jrweb.webp",
       "credentialUrl": null
     },
     {
       "id": "cert-10",
       "title": "Full-Stacks Javascript Developer",
       "platform": "Buildwithangga Indonesia",
-      "imageUrl": "/images/certificate/mern-bwa.jpg",
+      "imageUrl": "/images/certificate/mern-bwa.webp",
       "credentialUrl": null
     },
     {
       "id": "cert-11",
       "title": "Belajar Fundamental Aplikasi Web dengan React",
       "platform": "dicoding indonesia",
-      "imageUrl": "/images/certificate/fundamental-react.jpg",
+      "imageUrl": "/images/certificate/fundamental-react.webp",
       "credentialUrl": "https://www.dicoding.com/certificates/QLZ9KL3E2Z5D"
     }
   ]

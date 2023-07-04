@@ -3,6 +3,7 @@ import { DefaultSeo } from 'next-seo';
 import { ThemeProvider } from 'next-themes';
 import { Analytics } from '@vercel/analytics/react';
 import GoogleAnalyticsTracking from '@/components/GoogleAnalytics';
+
 export default function App({ Component, pageProps }) {
   let title = 'Home | Portfolio';
   let description = 'Website portfolio created by Abdulrahman.';
