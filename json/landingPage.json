@@ -399,6 +399,34 @@
               "name": "css"
             }
           ]
+        },
+        {
+          "id": 12,
+          "title": "Creosphera",
+          "description": "<p>A agency website</p>",
+          "demo": "https://creosphera-agency.vercel.app/",
+          "github": "https://github.com/dulabdul/creosphera-agency",
+          "imageUrl": "/images/project/creosphera_1.jpg",
+          "stacks": [
+            {
+              "name": "react"
+            },
+            {
+              "name": "next js"
+            },
+            {
+              "name": "html"
+            },
+            {
+              "name": "css"
+            },
+            {
+              "name": "Tailwind CSS"
+            },
+            {
+              "name": "Node JS"
+            }
+          ]
         }
       ]
     },
@@ -625,6 +653,34 @@
               "name": "wordpress CMS"
             }
           ]
+        },
+        {
+          "id": 9,
+          "title": "Creosphera",
+          "description": "<p>A agency website</p>",
+          "demo": "https://creosphera-agency.vercel.app/",
+          "github": "https://github.com/dulabdul/creosphera-agency",
+          "imageUrl": "/images/project/creosphera_1.jpg",
+          "stacks": [
+            {
+              "name": "react"
+            },
+            {
+              "name": "next js"
+            },
+            {
+              "name": "html"
+            },
+            {
+              "name": "css"
+            },
+            {
+              "name": "Tailwind CSS"
+            },
+            {
+              "name": "Node JS"
+            }
+          ]
         }
       ]
     },
@@ -718,13 +774,6 @@
 
   "certificate": [
     {
-      "id": "cert-1",
-      "title": "Learn Solid Programming Principles",
-      "platform": "dicoding indonesia",
-      "imageUrl": "/images/certificate/solid.webp",
-      "credentialUrl": "https://www.dicoding.com/certificates/L4PQM1E92ZO1"
-    },
-    {
       "id": "cert-2",
       "title": "Learn Basic Web Progamming",
       "platform": "dicoding indonesia",
@@ -746,25 +795,11 @@
       "credentialUrl": "https://www.dicoding.com/certificates/NVP7K7KGOZR0"
     },
     {
-      "id": "cert-5",
-      "title": "Learn Front-End Web Development Fundamentals",
-      "platform": "dicoding indonesia",
-      "imageUrl": "/images/certificate/fundamental.webp",
-      "credentialUrl": "https://www.dicoding.com/certificates/GRX5GO3WVX0M"
-    },
-    {
       "id": "cert-6",
       "title": "Learn to Build Web Apps with React",
       "platform": "dicoding indonesia",
       "imageUrl": "/images/certificate/react-pemula.webp",
       "credentialUrl": "https://www.dicoding.com/certificates/GRX5LOLLRP0M"
-    },
-    {
-      "id": "cert-7",
-      "title": "Build Progressive Web Apps",
-      "platform": "dicoding indonesia",
-      "imageUrl": "/images/certificate/mpwa.webp",
-      "credentialUrl": "https://www.dicoding.com/certificates/L4PQM1E92ZO1"
     },
     {
       "id": "cert-8",
