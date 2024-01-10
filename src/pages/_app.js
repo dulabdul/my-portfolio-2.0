@@ -28,6 +28,12 @@ export default function App({ Component, pageProps }) {
         },
       ],
     },
+    additionalMetaTags: [
+      {
+        name: 'google-site-verification',
+        content: 'qz_JinId_g8c9pr5ZkpMi6NAOp2jfipQVDxrzw-eALk',
+      },
+    ],
   };
 
   return (
