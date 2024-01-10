@@ -1,9 +1,7 @@
 import Typed from 'typed.js';
 import { useEffect, useRef } from 'react';
-
 const TypeWriter = ({ name, isLoop, isGradient, delay }) => {
   const el = useRef(null);
-
   useEffect(() => {
     const typed = new Typed(el.current, {
       strings: name,
@@ -13,12 +11,10 @@ const TypeWriter = ({ name, isLoop, isGradient, delay }) => {
       backDelay: 500,
       loop: isLoop,
     });
-
     return () => {
       typed.destroy();
     };
   }, [delay, name, isLoop]);
-
   return (
     <>
       {isGradient === 'orange' ? (
@@ -33,5 +29,4 @@ const TypeWriter = ({ name, isLoop, isGradient, delay }) => {
     </>
   );
 };
-
 export default TypeWriter;
